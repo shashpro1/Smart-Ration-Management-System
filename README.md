@@ -1,67 +1,50 @@
-# Smart Ration Management System
+# 🛒 Smart Ration Management System
 
-## Project Overview
+##  Project Overview
+The Smart Ration Management System is a Python-based application designed to efficiently manage ration card holders, product inventory, and billing operations.
 
-The Smart Ration Management System is a Python-based application developed to manage ration card holders, product inventory, and bill generation efficiently. The system helps reduce manual work by maintaining digital records of customers and ration products.
+The system reduces manual work by digitizing customer records, product management, and bill generation, with a secure OTP-based login system and a GUI interface for improved usability.
 
-## Features
+---
 
-* Add Card Holders
-* View Card Holder Details
-* Add Products
-* View Product Inventory
-* Generate Ration Bills
-* Store Data Using SQLite Database
+##  Features
 
-## Technologies Used
+###  Authentication
+- OTP-Based Login System for secure user access
 
-* Python
-* SQLite
-* Git
-* GitHub
+###  Card Holder Management
+- Add new card holders
+- View card holder details
 
-## Project Structure
+###  Product Management
+- Add new products
+- View product inventory
+- Manage stock records
 
-Smart-Ration-Management-System
+### Billing System
+- GUI-based bill generation system
+- Automatic bill calculation
+- Customer-wise billing records
 
-├── main.py
+### Interface
+- User-friendly GUI built using Tkinter
+- Easy navigation with menu-driven system
 
-├── database.py
+###  Database
+- SQLite database integration
+- Stores card holders, products, and billing data
 
-├── ration.db
+---
 
-└── README.md
+##  Technologies Used
+- Python 🐍
+- Tkinter (GUI) 🖥️
+- SQLite 🗄️
+- Git & GitHub 🔧
 
-## How to Run
+---
 
-1. Install Python.
-2. Open the project folder in VS Code.
-3. Run the database file:
-
-python database.py
-
-4. Run the main program:
-
-python main.py
-
-## Sample Output
-
-SMART RATION MANAGEMENT SYSTEM
-
-1. Add Card Holder
-2. View Card Holders
-3. Add Product
-4. View Products
-5. Generate Bill
-6. Exit
-
-## Future Enhancements
-
-* Product Stock Update
-* Admin Login System
-* QR Code-Based Ration Card
-* Monthly Distribution Reports
-* GUI Interface Using Tkinter
+##  Project Structure
 
 ## Author
 
